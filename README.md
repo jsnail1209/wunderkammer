@@ -35,4 +35,11 @@
     <td>6인팀(유니티 공간 디자인)</td>
     <td><img src ="유니티공간디자인.jpg" width="320" height="180"></td>
   </tr>
+
+  <tr>
+    <td>콘텐츠 개발</td>
+    <td>23.06.21 ~ 23.10.11</td>
+    <td>2인팀(유니티 개발)</td>
+    <td><img src ="유니티공간디자인.jpg" width="320" height="180"></td>
+  </tr>
 </table>
