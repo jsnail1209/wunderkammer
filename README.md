@@ -47,6 +47,6 @@
     <td>전시</td>
     <td>23.10.17 ~ 23.10.18</td>
     <td>2인팀(전시 상주)</td>
-    <td><img src ="wunderkammer.png" width="320" height="180"></td>
+    <td><img src ="전시사진.jpg" width="320" height="180"></td>
   </tr>
 </table>
