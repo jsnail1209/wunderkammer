@@ -33,6 +33,6 @@
     <td>콘텐츠 기획</td>
     <td>23.05.02 ~ 23.06.20</td>
     <td>6인팀(유니티 공간 디자인)</td>
-    <td><img src ="유니티공간디자인.jpg" width="480" height="270"></td>
+    <td><img src ="유니티공간디자인.jpg" width="320" height="180"></td>
   </tr>
 </table>
