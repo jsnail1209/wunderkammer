@@ -33,6 +33,6 @@
     <td>콘텐츠 기획</td>
     <td>23.05.02 ~ 23.06.20</td>
     <td>6인팀(유니티 공간 디자인)</td>
-    <td><img src ="https://github.com/jsnail1209/wunderkammer/blob/main/%EC%9C%A0%EB%8B%88%ED%8B%B0%EA%B3%B5%EA%B0%84%EB%94%94%EC%9E%90%EC%9D%B8.jpg"></td>
+    <td><img src ="유니티공간디자인.jpg" width="960" height="540"></td>
   </tr>
 </table>
