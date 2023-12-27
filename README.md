@@ -55,7 +55,7 @@
 <img src = "스프린트.png" width="320" height="180">
 <table>
   <tr>
-    <td>목적</td>
+    <td>장기목표</td>
     <td>바라만보던 문화예술을 직접 체험할 수 있는 경험을 제공한다.</td>
   </tr>
   <tr>  
