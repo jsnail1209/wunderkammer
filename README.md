@@ -52,7 +52,7 @@
 </table>
 
 # 기획
-<img src = "스프린트.png">
+<img src = "스프린트.png" width="320" height="180">
 <table>
   <tr>
     <td>목적</td>
