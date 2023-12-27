@@ -3,7 +3,7 @@
 # 프로젝트 브리프
 <table>
   <tr>
-    <td>프로젝트</td>
+    <td>프로젝트명</td>
     <td>WUNDERKAMMER</td>
   </tr>
   <tr>
