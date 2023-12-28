@@ -180,7 +180,7 @@
 > 모든(네 개의) 악기를 수집하면 완성된 음악의 이름과 이동해야 하는 장소를 안내하는 창이 표시
 
 ## 4. 음악 완성
-<img src = "img/final2.png" width="320" height="180"
+<img src = "img/final2.png" width="320" height="180">
 <table>
   <tr>
     <td>충돌 이벤트</td>
