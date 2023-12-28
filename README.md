@@ -211,9 +211,8 @@
     <td>전시 사진</td>  
   </tr>
   <tr>
-    <td>
     <td><img src = "img/레퍼런스_전시배치_최종.png" width="249" height="247"></td>
-    <td><img src = "img/전시회.png" width="249" height="247"></td>
-    <td><img src = "img/전시사진.jpg" width="159" height="224"></td>
+    <td><img src = "img/전시회.png" width="159" height="224"></td>
+    <td><img src = "img/전시사진.jpg" width="320" height="180"></td>
   </tr>
 </table>
