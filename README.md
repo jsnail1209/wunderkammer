@@ -1,4 +1,4 @@
-<img src ="https://github.com/jsnail1209/wunderkammer/blob/main/1(%EB%8C%80%ED%91%9C).png">
+<img src ="img/1(대표).png">
 
 # 프로젝트 브리프
 <table>
@@ -216,3 +216,6 @@
     <td><img src = "img/전시사진.jpg" width="320" height="180"></td>
   </tr>
 </table>
+
+## 방문객 후기
+<img src = "img/방문객포스트잇.jpg" width="320" height="180">
