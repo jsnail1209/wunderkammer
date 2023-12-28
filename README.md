@@ -153,6 +153,9 @@
 > 이동: 키보드의 W/S/A/D를 통해 조작
 
 ```
+// 이동 속도 변수
+public float moveSpeed = 7f;
+
 // 1. 사용자의 입력을 받는다.
 float h = Input.GetAxis("Horizontal");
 float v = Input.GetAxis("Vertical");
@@ -160,6 +163,9 @@ float v = Input.GetAxis("Vertical");
 // 2. 이동 방향을 설정한다.
 Vector3 dir = new Vector3(h, 0, v);
 dir = dir.normalized;
+
+// 3. 이동 속도에 맞춰 이동한다.
+cc.Move(dir * moveSpeed * Time.deltaTime);
 ```
 
 > 시간 정지: Time.timeScale = 0f;
