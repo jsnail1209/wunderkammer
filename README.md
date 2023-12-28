@@ -210,7 +210,7 @@
     <td>전시 사진</td>  
   </tr>
   <tr>
-    <img src = "img/레퍼런스_전시배치_최종.png" width="320" height="180">
-    <img src = "img/전시사진.png" width="320" height="180">
+    <td><img src = "img/레퍼런스_전시배치_최종.png" width="320" height="180"></td>
+    <td><img src = "img/전시사진.png" width="320" height="180"></td>
   </tr>
 </table>
