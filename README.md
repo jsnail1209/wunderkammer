@@ -149,7 +149,17 @@
   </tr>
 </table>
 
-가이드 창 표시
-> 첫 화면에서 아래에서 위로 가이드 창이 표시. 이때 게임 내 시간은 멈쳐 있음
+플레이어 조작(이동, 점프)
+> 이동: 키보드의 W/S/A/D를 통해 조작
+
+```
+// 1. 사용자의 입력을 받는다.
+float h = Input.GetAxis("Horizontal");
+float v = Input.GetAxis("Vertical");
+
+// 2. 이동 방향을 설정한다.
+Vector3 dir = new Vector3(h, 0, v);
+dir = dir.normalized;
+```
 
 > 시간 정지: Time.timeScale = 0f;
