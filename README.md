@@ -218,7 +218,18 @@
 </table>
 
 ## 방문객 후기
-<img src = "img/방문객포스트잇.jpg" width="320" height="180">
+
+약 100명의 방문객이 콘텐츠를 체험하고 나서 감상평/수정사항을 포스트잇에 작성해줌
+
+<table>
+  <tr>
+    <td><img src = "img/방문객포스트잇.jpg" width="320" height="180"></td>
+  </tr>
+    <tr>
+    <td><img src = "img/포스트잇.jpg" width="180" height="320"></td>
+  </tr>
+</table>
+
 
 많이 나왔던 키워드
 
