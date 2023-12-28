@@ -171,10 +171,17 @@ void Update()
   // 2. 이동 방향을 설정한다.
   Vector3 dir = new Vector3(h, 0, v);
   dir = dir.normalized;
+
+  // 2-1. 메인 카메라를 기준으로 방향을 변환한다.
+  dir = Camera.main.transform.TransformDirection(dir);
   
   // 3. 이동 속도에 맞춰 이동한다.
   cc.Move(dir * moveSpeed * Time.deltaTime);
 }
 ```
 
-> 시간 정지: Time.timeScale = 0f;
+> 점프: 스페이스 바를 통해 조작
+
+```
+
+```
