@@ -33,21 +33,21 @@
     <td>기획</td>
     <td>23.05.02 ~ 23.06.20</td>
     <td>6인팀(유니티 공간 디자인)</td>
-    <td><img src ="유니티공간디자인.jpg" width="320" height="180"></td>
+    <td><img src ="img/유니티공간디자인.jpg" width="320" height="180"></td>
   </tr>
 
   <tr>
     <td>개발</td>
     <td>23.06.21 ~ 23.10.11</td>
     <td>2인팀(유니티 개발)</td>
-    <td><img src ="wunderkammer.png" width="320" height="180"></td>
+    <td><img src ="img/wunderkammer.png" width="320" height="180"></td>
   </tr>
 
   <tr>
     <td>전시</td>
     <td>23.10.17 ~ 23.10.18</td>
     <td>2인팀(전시 상주)</td>
-    <td><img src ="전시사진.jpg" width="320" height="180"></td>
+    <td><img src ="img/전시사진.jpg" width="320" height="180"></td>
   </tr>
 </table>
 
@@ -55,7 +55,7 @@
 
 프로토타입과 사용자 반응을 빠르게 확인할 수 있는 스프린트 방식으로 다음과 같이 진행
 
-<img src = "스프린트.png" width="640" height="360">
+<img src = "img/스프린트.png" width="640" height="360">
 
 <table>
   <tr>
