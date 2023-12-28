@@ -94,7 +94,7 @@
   </tr>
   <tr>
     <td>2</td>
-    <td>악기가 있는 곳으로 이동</td>
+    <td>악기 탐색</td>
     <td><img src = "img/roam1.png" width="320" height="180"></td>
     <td><img src = "img/roam2.png" width="320" height="180"></td>
   </tr>
