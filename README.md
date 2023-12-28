@@ -224,12 +224,9 @@
 <table>
   <tr>
     <td><img src = "img/방문객포스트잇.jpg" width="320" height="180"></td>
-  </tr>
-    <tr>
     <td><img src = "img/포스트잇.jpg" width="180" height="320"></td>
   </tr>
 </table>
-
 
 많이 나왔던 키워드
 
