@@ -90,12 +90,31 @@
     <td>1</td>
     <td>가이드 확인</td>
     <td><img src = "img/wunderkammer.png" width="320" height="180"></td>
+    <td><img src = "img/guild.png" width="320" height="180"></td>
   </tr>
   <tr>
     <td>2</td>
     <td>악기가 있는 곳으로 이동</td>
+    <td><img src = "img/roam1.png" width="320" height="180"></td>
+    <td><img src = "img/roam2.png" width="320" height="180"></td>
   </tr>
-  
+  <tr>  
+    <td>3</td>
+    <td>악기 수집</td>
+    <td><img src = "img/collect1.png" width="320" height="180"></td>
+    <td><img src = "img/collect2.png" width="320" height="180"></td>
+  </tr>
+  <tr>  
+    <td>4</td>
+    <td>음악 완성</td>
+    <td><img src = "img/final1.png" width="320" height="180"></td>
+    <td><img src = "img/final2.png" width="320" height="180"></td>
+  </tr>
+  <tr>  
+    <td>5</td>
+    <td>게임 종료</td>
+    <td><img src = "img/end.png" width="320" height="180"></td>
+  </tr>
 </table>
 
 
