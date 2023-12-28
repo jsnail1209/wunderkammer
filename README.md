@@ -124,6 +124,7 @@
 # 개발
 
 ## 1. 가이드 확인
+<img src = "img/guild.png" width="320" height="180">
 <table>
   <tr>
     <td>가이드 창 표시, 다음/이전 가이드 표시 버튼, 창 닫기 버튼</td>
