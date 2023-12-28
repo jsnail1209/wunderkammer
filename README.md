@@ -89,7 +89,7 @@
   <tr>
     <td>1</td>
     <td>가이드 확인</td>
-    <td><img src = "img/wunderkammer.png" width="640" height="360"></td>
+    <td><img src = "img/wunderkammer.png" width="320" height="180"></td>
   </tr>
   <tr>
     <td>2</td>
