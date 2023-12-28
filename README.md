@@ -204,3 +204,13 @@
 > ESC 키를 누르면 계속하기, 다시하기, 게임종료를 선택할 수 있는 옵션 창이 표시
 
 # 전시
+<table>
+  <tr>
+    <td>전시 공간 배치도</td>
+    <td>전시 사진</td>  
+  </tr>
+  <tr>
+    <img src = "img/레퍼런스_전시배치_최종.png" width="320" height="180">
+    <img src = "img/전시사진.png" width="320" height="180">
+  </tr>
+</table>
