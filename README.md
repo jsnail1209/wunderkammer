@@ -89,6 +89,7 @@
   <tr>
     <td>1</td>
     <td>가이드 확인</td>
+    <td><img src = ""></td>
   </tr>
   <tr>
     <td>2</td>
