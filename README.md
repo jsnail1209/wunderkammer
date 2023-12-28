@@ -139,7 +139,7 @@
 > 다음/이전 버튼을 누르면 해당하는 가이드 창이 표시
 
 창 닫기 버튼
-> 창 닫기 버튼을 누르면 가이드 창이 사라지고 게임 내 시간이 흘러감
+> 창 닫기 버튼을 누르면 가이드 창이 사라지고 게임 내 시간이 흐름
 
 ## 2. 악기 탐색
 
@@ -150,72 +150,14 @@
 </table>
 
 플레이어 조작(이동, 점프)
-> 이동: 키보드의 W/S/A/D를 통해 조작
+> 키보드의 W/S/A/D를 통해 이동하고, 스페이스 바를 누르면 점프
 
-```
-// 이동 속도 변수
-public float moveSpeed = 7f;
+시점 전환
+> 오른쪽 마우스 버튼을 드래그하여 시점 전환
 
-void Start()
-{
-    // 캐릭터 콘트롤러 컴포넌트 받아오기
-    cc = GetComponent<CharacterController>();
-}
+> 이때 미니맵에서도 드래그한 시점에 맞게 회전
 
-void Update()
-{
-  // 1. 사용자의 입력을 받는다.
-  float h = Input.GetAxis("Horizontal");
-  float v = Input.GetAxis("Vertical");
-  
-  // 2. 이동 방향을 설정한다.
-  Vector3 dir = new Vector3(h, 0, v);
-  dir = dir.normalized;
+미니맵
+> 플레이어의 위치와 수집해야 하는 악기의 위치를 표시
 
-  // 2-1. 메인 카메라를 기준으로 방향을 변환한다.
-  dir = Camera.main.transform.TransformDirection(dir);
-  
-  // 3. 이동 속도에 맞춰 이동한다.
-  cc.Move(dir * moveSpeed * Time.deltaTime);
-}
-```
-
-> 점프: 스페이스 바를 통해 조작
-
-```
-// 중력 변수
-float gravity = -20f;
-
-// 수직 속력 변수
-public float yVelocity = 0;
-
-// 점프력 변수
-public float jumpPower = 10f;
-
-// 점프 상태 변수
-public bool isJumping = false;
-
-void Update()
-{
-  // 2-2. 만일, 점프 중이었고, 다시 바닥에 착지했다면...
-  if (isJumping && cc.collisionFlags == CollisionFlags.Below)
-  {
-      // 점프 전 상태로 초기화한다.
-      isJumping = false;
-      // 캐릭터 수직 속도를 0으로 만든다.
-      yVelocity = 0;
-  }
-  
-  // 2-3. 만일, 키보드 <Space> 버튼을 입력했고, 점프를 안 한 상태라면...
-  if (Input.GetButtonDown("Jump") && !isJumping)
-  {
-      // 캐릭터 수직 속도에 점프력을 적용하고 점프 상태로 변경한다.
-      yVelocity = jumpPower;
-      isJumping = true;
-  }
-  
-  // 2-4. 캐릭터 수직 속도에 중력 값을 적용한다.
-  yVelocity += gravity * Time.deltaTime;
-  dir.y = yVelocity;
-}
-```
+> 악기를 수집하면 미니맵에서 해당 악기의 아이콘은 표시되지 않음
